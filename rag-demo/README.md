@@ -75,5 +75,16 @@ RAG_CORPUS_ID="your-id-from-phase-1"
 To test the agent in a visual browser interface:
 ```bash
 uv run adk web src.my_agent:rag_app
-
 ```
+
+## Testing RAG Engine
+- Go to `Vertex AI` -> `RAG Engine`
+- Select the region where your rag engine is located
+- Click on `Test`
+- It will bring you to `Vertex AI Studio`
+- Test your prompts using Vertesx AI Studio
+- Features to consider:
+    - Choose the model you want to use 
+    - You can toggle the code feature to copy the code for rag engine app
+    - You have preview of the number of tokens you are using
+    
